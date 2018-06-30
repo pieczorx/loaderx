@@ -1,0 +1,11 @@
+{
+  "name": "LoaderX",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^2.0.3"
+  }
+}
