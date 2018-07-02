@@ -1,12 +1,32 @@
 <head>
   <link rel="stylesheet" href="assets/css/m.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet"/>
+  <link href="assets/fonts/fontawesome/css/all.css" rel="stylesheet">
+
+  <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/modules/html.js"></script>
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/modules/song.js"></script>
+  <script src="assets/js/index.js"></script>
+  <script>if (window.module) module = window.module;</script>
 </head>
 <body>
   <div class="a no_overflow">
-    <div class="h"></div>
-    <div class="search">
-      <input type="text" placeholder="Wpisz URL filmu z jutuba" data-role="inputAddVideo" />
-      <div class="button">klik</div>
+    <div class="draggable">
+      <div class="h">
+        <div class="logo">loaderx</div>
+      </div>
+
+      <div class="search">
+        <div class="center">
+          <input type="text" class="radius l" placeholder="Wpisz URL filmu z jutuba" data-role="inputAddVideo" value="https://www.youtube.com/watch?v=skQhri9Te2s"/>
+          <div class="button undraggable radius l" data-role="btnxd"><i class="fal fa-plus"></i></div>
+        </div>
+      </div>
+      <div class="song_list" data-role="song_list"></div>
     </div>
+
+
   </div>
 </body>
